@@ -2,7 +2,7 @@
 This repository contains normalization scripts and scripts used to export text from corpora
 
 # Stappenplan 
-## Transcripties uit cgn exporteren
+## Transcripties uit CGN exporteren
 In de download van CGN vind je onder \data\annot\text\ort de ortografische transcripties. Het script extract_text_from_corpus.py vormt deze files om tot leesbare teksten die kunnen gebruikt worden in het experiment. 
 
 Voor het uitvoeren van dit script moeten drie folders aangemaakt worden: 
