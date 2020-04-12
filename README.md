@@ -13,7 +13,7 @@ Voor het uitvoeren van dit script moeten drie folders aangemaakt worden:
 De ortografische transcripties gevonden in de download moeten gekopieerd worden naar input. Na uitvoer van extract_text_from_corpus.py komt het resultaat terecht in extracted_texts. 
 
 ## CGN normaliseren
-Na het bekomen van de leesbare teksten in de vorige stap kan normalize_files_cgn.sh gebruikt worden om de cgn te normaliseren. Deze voert reguliere expressies uit om hoofdletters om te vormen naar kleine letters, en om punctuaties en niet-woorden te verwijderen. Het resultaat is bruikbare referentiebestanden. 
+Na het bekomen van de leesbare teksten in de vorige stap kan normalize_files_cgn.sh gebruikt worden om de transcripties te normaliseren. Deze voert reguliere expressies uit om hoofdletters om te vormen naar kleine letters, en om punctuaties en niet-woorden te verwijderen. Het resultaat is referentiebestanden bruikbaar voor de benchmarking. 
 
 ## Daisies en Citybooks normaliseren
 Daisies: 
