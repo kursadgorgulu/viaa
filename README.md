@@ -25,5 +25,5 @@ normalize_files_sheffield.sh werd gebruikt om de citybook te normaliseren.
 ## Exports uit Limecraft normaliseren
 Na het bekomen van de transcripties van de engines (Google - Vocapia - Speechmatics) uit Limecraft moeten nog enkele stappen ondernomen worden eer deze bruikbaar zijn voor de test: 
 1) Voer delete_first_line_of_files.sh uit. De exports uit Limecraft bevatten steeds een eerste lijn met titel 'Transcript'. Het uitvoeren van dit script verwijdert deze eerste lijn in elke file. 
-2) Voer change_extensions.sh uit. De exports van Limecraft zijn in csv-formaat. Om de benchmarking te kunnnen uitvoeren moeten deze omgevormd worden tot tekstbestanden. Deze script vormt alle csv-files in de folder om tot txt-files. 
+2) Voer change_extensions.bat uit. De exports van Limecraft zijn in csv-formaat. Om de benchmarking te kunnnen uitvoeren moeten deze omgevormd worden tot tekstbestanden. Deze script vormt alle csv-files in de folder om tot txt-files. 
 3) Vervolgens kunnen de transcripties genormaliseerd worden. Voer normalize_files_hypotheses.sh uit om te normaliseren. 
