@@ -1,5 +1,5 @@
 # viaa
-This repository contains normalization scripts and scripts used to export text from corpora
+This repository contains normalization scripts and scripts used to extract text from corpora
 
 # Stappenplan 
 ## Transcripties uit CGN exporteren
