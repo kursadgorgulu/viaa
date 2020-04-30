@@ -3,14 +3,14 @@ This repository contains normalization scripts and scripts used to extract text 
 
 # Stappenplan 
 ## Transcripties uit CGN exporteren
-In de download van CGN vind je onder \data\annot\text\ort de ortografische transcripties. Het script extract_text_from_corpus.py vormt deze files om tot leesbare teksten die kunnen gebruikt worden in het experiment. 
+In de download van CGN vind je onder \data\annot\text\ort de ortografische transcripties. Het script extract_text_from_corpus.py vormt deze files om tot leesbare teksten die kunnen gebruikt worden voor het experiment. 
 
 Voor het uitvoeren van dit script moeten drie folders aangemaakt worden: 
 - cleaned
 - extracted_texts
 - input
 
-De ortografische transcripties gevonden in de download moeten gekopieerd worden naar input. Na uitvoer van extract_text_from_corpus.py komt het resultaat terecht in extracted_texts. 
+De ortografische transcripties gevonden in de download van CGN moeten gekopieerd worden naar de map: input. Na uitvoer van extract_text_from_corpus.py komt het resultaat terecht in extracted_texts. 
 
 ## Referenties normaliseren: CGN, Daisies en Citybooks normaliseren
 Na het bekomen van de transcripties in txt-formaat kan normalize_reference_files.sh gebruikt worden om de transcripties te normaliseren. Deze voert reguliere expressies uit om hoofdletters om te vormen naar kleine letters, en om punctuaties en niet-woorden te verwijderen. Het resultaat is referentiebestanden bruikbaar voor de benchmarking. 
