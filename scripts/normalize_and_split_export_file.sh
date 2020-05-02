@@ -1,5 +1,5 @@
 ## This script normalizes and splits the single file exported from Limecraft into multiple files, one for each clip. 
-## Change variables filename and extension to your filename and extension correspondingly ("wav" or "mp3") before running this script. This is the file exported from Limecraft. 
+## Before running this script, change variables filename and extension to your filename and extension ("wav" or "mp3") correspondingly. This should match the file that was exported from Limecraft. 
 
 filename="vocapia_export_cgn"
 extension="wav"
