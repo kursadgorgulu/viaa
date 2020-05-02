@@ -3,9 +3,9 @@ This repository contains normalization scripts and scripts used to extract text 
 
 # Stappenplan 
 ## Transcripties uit CGN exporteren
-In de download van CGN vind je onder \data\annot\text\ort de ortografische transcripties. Het script extract_text_from_corpus.py vormt deze files om tot leesbare teksten die kunnen gebruikt worden voor het experiment. 
+In de download van CGN (via https://ivdnt.org/downloads/taalmaterialen/tstc-corpus-gesproken-nederlands) vind je onder \data\annot\text\ort de ortografische transcripties. Het script extract_text_from_corpus.py vormt deze files om tot leesbare teksten die kunnen gebruikt worden voor het experiment. 
 
-Voor het uitvoeren van dit script moeten drie folders aangemaakt worden: 
+Vooraleer dit script wordt uitgevoerd moeten drie folders aangemaakt worden: 
 - cleaned
 - extracted_texts
 - input
