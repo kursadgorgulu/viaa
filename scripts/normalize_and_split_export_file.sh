@@ -13,7 +13,7 @@ done
 ## Perform built-in rules and regular expressions to normalize all text files in the current folder
 
 for f in *.txt; do
-    benchmarkstt-tools normalization --inputfile "$f" --outputfile "normalized_$f" --lowercase --regex "[,.\?!:\"\'\´\`\-\–\−\–\—;]|(Transcription Subclip)|(transcription subclip)" ""
+    benchmarkstt-tools normalization --inputfile "$f" --outputfile "normalized_$f" --lowercase --regex "[,.\?!:\"\'\´\`\-\–\−\–\—;*‘’()]|(Transcription Subclip)|(transcription subclip)" ""
     echo "Processing $f"
 done
 
